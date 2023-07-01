@@ -3,13 +3,11 @@ body {
   margin-top: 0px;
   margin-right: 0px;
   color: wheat;
-  
   background-image: linear-gradient(to right top, #1a68dd, #007ad6, #0085c4, #008dae, #48919b);
 }
 
 .head {
   margin-left: 20%;
-  color: #a9a9a9;
   margin-top: 120px;
 }
 
