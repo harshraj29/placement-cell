@@ -8,7 +8,7 @@ module.exports.addStudent = function(req,res){
             title: 'Add Student',
         });
     } else {
-        // return res.redirect('/users/sign-in');
+        return res.redirect('/users/sign-in');
     }
 };
 
@@ -42,13 +42,6 @@ module.exports.createStudent = function (req, res) {
             dsa_score: req.body.dsa_score,
             webD_score: req.body.webD_score,
             react_score: req.body.react_score,
-            // interviews: [
-            //   {
-            //     company: req.body.company,
-            //     date: req.body.date,
-            //     result: req.body.result,
-            //   },
-            // ],
           },
           function (err, user) {
             if (err) {

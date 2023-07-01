@@ -150,3 +150,14 @@ input:disabled {
 .scoreHead {
   margin-top: 10px;
 }
+
+.act{
+  display: flex;
+  margin-left: 30%;
+  
+  font-size: 15px;
+}
+
+.act .links{
+  width: 200px;
+}
